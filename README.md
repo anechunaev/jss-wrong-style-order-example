@@ -1,5 +1,7 @@
 # Example of wrong styles order in Chrome
 
+Install dependencies: `npm i && cd server && npm i`.
+
 Build project with `npm run build`
 
 Start server with `npm start`. Server will be running at [localhost:8080](http://localhost:8080/). Wrong styles order on page [localhost:8080/Alert](http://localhost:8080/Alert).
