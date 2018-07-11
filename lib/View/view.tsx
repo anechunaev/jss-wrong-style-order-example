@@ -11,7 +11,7 @@ export interface IOuterProps extends IBaseOuterProps<HTMLDivElement> {
 export interface IInnerProps extends IBaseInnerProps, IOuterProps {
 }
 
-class View extends React.PureComponent<IInnerProps> {
+class View extends React.Component<IInnerProps> {
 	public static displayName = 'Order.ViewBox.View';
 	public static defaultProps = {
 		elementRef: () => {},

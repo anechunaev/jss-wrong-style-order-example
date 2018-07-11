@@ -38,7 +38,7 @@ export interface IProps {
 	theme?: any; // @TODO patch theme
 	patch?: any; // @TODO patch theme
 }
-class OrderThemeProvider extends React.PureComponent<IProps> {
+class OrderThemeProvider extends React.Component<IProps> {
 	public static displayName = 'Order.ThemeProvider';
 
 	public render() {

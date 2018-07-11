@@ -10,7 +10,7 @@ export interface IProps extends React.Props<HTMLDivElement> {
 	light?: boolean;
 }
 
-class ContextProvider extends React.PureComponent<IProps> {
+class ContextProvider extends React.Component<IProps> {
 	public render() {
 		const { theme, children, primary, secondary, light, dark } = this.props;
 

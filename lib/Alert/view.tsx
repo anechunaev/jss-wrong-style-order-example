@@ -12,7 +12,7 @@ export interface IOuterProps extends IBaseOuterProps<HTMLDivElement> {
 export interface IInnerProps extends IBaseInnerProps, IOuterProps {
 }
 
-class AlertView extends React.PureComponent<IInnerProps> {
+class AlertView extends React.Component<IInnerProps> {
 	public static displayName = 'Order.Alert.View';
 	public static defaultProps = {
 		withMargin: true,

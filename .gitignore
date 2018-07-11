@@ -36,3 +36,4 @@ theme/**/*.d.ts
 !**/*.spec.js
 !**/*.showcase.js
 *.js.map
+!lib/base.d.ts
