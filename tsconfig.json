@@ -36,7 +36,8 @@
     "dist",
     "utils",
     "config",
-    "server",
+	"server",
+	"**/spec/*",
     "server/*"
   ],
   "awesomeTypescriptLoaderOptions": {
