@@ -1,0 +1,38 @@
+# Editors
+.idea/
+.vscode/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-error.log*
+
+# Tests
+coverage
+.nyc_output
+gemini/reports
+reports
+
+# NPM
+**/node_modules/
+**/.npm
+
+# Caches
+**/.awcache*
+**/.rpt2_cache/
+**/.temp/
+
+# Distribution
+**/dist/
+entries/*.js
+entries/*.d.ts
+lib/**/*.js
+lib/**/*.d.ts
+provider/*.js
+provider/*.d.ts
+theme/**/*.js
+theme/**/*.d.ts
+!**/spec/*
+!**/*.spec.js
+!**/*.showcase.js
+*.js.map
